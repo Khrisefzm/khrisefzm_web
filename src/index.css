@@ -2,11 +2,14 @@
   --primary-color: #fefdfe;
   --secondary-color: #606060;
   /* typography and color text*/
-  --tittle-typo: Tangerine, serif;
-  --text-typo: "Source Sans 3", sans-serif;
+  --tittle-typo: "Courgette", "Montserrat", sans-serif;
+  --text-typo: "Montserrat", sans-serif;
   --title-color: #3f268e;
   --text-color: #929292;
   --full-screen: #d2e5fe;
+  --btn-background: #85e6b9;
+  --btn-color: #809189;
+  --btn-hover: #213c2f;
 }
 /* dark mode */
 @media (preference-color-scheme: dark) {
@@ -61,16 +64,25 @@ body {
   line-height: 1.4em;
 }
 
-h2 {
+h1 {
   color: var(--title-color);
   font-family: var(--tittle-typo);
   text-align: center;
   font-size: 3em;
+  font-weight: 400;
+}
+
+h2 {
+  color: var(--title-color);
+  font-family: var(--tittle-typo);
+  text-align: center;
+  font-size: 2em;
 }
 
 h3 {
   font-family: var(--tittle-typo);
   text-align: center;
+  font-size: 1.5em;
 }
 
 p {
