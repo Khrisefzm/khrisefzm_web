@@ -1,17 +1,13 @@
 import React from "react";
 import "../styles/home.css";
 import { Navbar } from "../components/Navbar";
-import { CatAnimation } from "../components/CatAnimation";
-import { Icon } from "../components/Buttons";
+import { Hero } from "../components/Hero";
 
 function Home() {
   return (
     <>
       <Navbar></Navbar>
-      <div>
-        <Icon icon="github" link="https://github.com/Khrisefzm" />
-        <CatAnimation />
-      </div>
+      <Hero />
       <section id="about" style={{ height: "700px" }}>
         about
       </section>
