@@ -1,0 +1,79 @@
+/* Padding */
+.pt-63 {
+  padding-top: 63px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Screen */
+
+.full-screen {
+  height: 100vh;
+}
+
+/* text propierties */
+.text-typo {
+  font-family: var(--text-typo);
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+/* Icons */
+.icon:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/* buttons */
+
+.btn {
+  padding: 1em 1.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: var(--text-typo);
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 20px auto;
+  color: var(--btn-color);
+  background-color: var(--btn-background);
+}
+.btn:active {
+  transform: translateY(-1px);
+}
+.btn:hover {
+  color: var(--primary-color);
+  background-color: var(--btn-hover);
+}
+
+/* block propierties */
+.block {
+  display: block;
+}
+
+/* flex propierties */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+  justify-content: center;
+}
+.gap-10 {
+  gap: 10px;
+}
