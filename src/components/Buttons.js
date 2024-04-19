@@ -3,19 +3,18 @@ import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import "../styles/global.css";
 
-export const Icon = ({ icon, link }) => {
+export const Icon = ({ icon, link, width, height }) => {
   const IconLoader = lazy(() => import(`./icons/${icon}`));
 
   return (
     <Suspense fallback={<div>icone button</div>}>
-      <Link
-        to={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ display: "block" }}
-      >
-        <IconLoader />
-      </Link>
+      {link ? (
+        <Link to={link} target="_blank" rel="noopener noreferrer">
+          <IconLoader width={width} height={height} />
+        </Link>
+      ) : (
+        <IconLoader width={width} height={height} />
+      )}
     </Suspense>
   );
 };
