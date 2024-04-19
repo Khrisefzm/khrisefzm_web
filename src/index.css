@@ -77,6 +77,7 @@ h2 {
   font-family: var(--tittle-typo);
   text-align: center;
   font-size: 2em;
+  font-weight: 400;
 }
 
 h3 {
@@ -93,4 +94,5 @@ p {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1366px;
 }

@@ -2,21 +2,20 @@ import React from "react";
 import "../styles/home.css";
 import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
+import { About } from "../components/About";
 
 function Home() {
   return (
     <>
       <Navbar></Navbar>
-      <Hero />
-      <section id="about" style={{ height: "700px" }}>
-        about
-      </section>
-      <section id="projects" style={{ height: "700px" }}>
-        projects
-      </section>
-      <section id="contact" style={{ height: "700px" }}>
-        contact
-      </section>
+      <main>
+        <Hero />
+        <section id="about">
+          <About />
+        </section>
+        <section id="projects">projects</section>
+        <section id="contact">contact</section>
+      </main>
     </>
   );
 }
