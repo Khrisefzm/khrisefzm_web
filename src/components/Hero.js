@@ -22,9 +22,13 @@ export const Hero = () => {
         </h1>
         <h2 className="text-typo">a Full Stack developer</h2>
         <Button text="SEE MY PROJECTS" link="/#projects" />
-        <div className="flex-row gap-10 items-center">
-          <Icon icon="github" link="https://github.com/Khrisefzm" />
-          <Icon icon="linkedin" link="https://www.linkedin.com/in/khrisefzm/" />
+        <div className="flex-row items-center gap-10">
+          <Icon icon="github" link="https://github.com/Khrisefzm" width={40} />
+          <Icon
+            icon="linkedin"
+            link="https://www.linkedin.com/in/khrisefzm/"
+            width={40}
+          />
         </div>
       </div>
       <CatAnimation />

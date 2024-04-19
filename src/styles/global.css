@@ -74,6 +74,17 @@
   align-items: center;
   justify-content: center;
 }
+
+.wrap {
+  flex-wrap: wrap;
+}
 .gap-10 {
   gap: 10px;
+}
+
+/*Some image propeties*/
+.img-profile {
+  max-width: 200px;
+  min-width: 100px;
+  margin: auto;
 }
