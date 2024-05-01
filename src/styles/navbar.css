@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .menu ul {
     width: 250px;
   }

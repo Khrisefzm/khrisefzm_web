@@ -24,23 +24,23 @@ export const Navbar = () => {
           aria-label="Toggle navigation"
           onClick={toggleMenu}
         >
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </button>
 
         <div className={`menu ${isOpen ? "active" : ""}`}>
           <ul onClick={toggleMenu}>
             <li>
-              <HashLink smooth exact to="/#about">
+              <HashLink smooth exact="true" to="/#about">
                 About me
               </HashLink>
             </li>
             <li>
-              <HashLink smooth exact to="/#projects">
+              <HashLink smooth exact="true" to="/#projects">
                 Projects
               </HashLink>
             </li>
             <li>
-              <HashLink smooth exact to="/#contact">
+              <HashLink smooth exact="true" to="/#contact">
                 Contact me
               </HashLink>
             </li>
