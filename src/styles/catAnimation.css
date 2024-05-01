@@ -64,3 +64,13 @@
     opacity: 1;
   }
 }
+
+/* Movil S */
+@media (max-width: 321px) {
+  .catSvg {
+    width: 100%;
+  }
+  .catFloor {
+    width: 100%;
+  }
+}

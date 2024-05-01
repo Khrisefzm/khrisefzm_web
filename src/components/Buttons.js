@@ -21,7 +21,7 @@ export const Icon = ({ icon, link, width, height }) => {
 
 export const Button = ({ text, link }) => {
   return (
-    <HashLink smooth exact to={link}>
+    <HashLink smooth exact="true" to={link}>
       <button className="btn text-typo">{text}</button>
     </HashLink>
   );

@@ -10,6 +10,7 @@
   --btn-background: #85e6b9;
   --btn-color: #809189;
   --btn-hover: #213c2f;
+  --bg-projects: rgb(236, 166, 247, 0.5);
 }
 /* dark mode */
 @media (preference-color-scheme: dark) {

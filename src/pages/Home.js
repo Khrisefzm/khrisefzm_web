@@ -1,8 +1,9 @@
 import React from "react";
-import "../styles/home.css";
+import "../styles/global.css";
 import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
 import { About } from "../components/About";
+import { Projects } from "../components/Projects";
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
         <section id="about">
           <About />
         </section>
-        <section id="projects">projects</section>
+        <section id="projects" className="bg-project">
+          <Projects />
+        </section>
         <section id="contact">contact</section>
       </main>
     </>

@@ -22,7 +22,7 @@ const bootstrap = ({ width, height }) => {
           <path
             d="M67.1097 79.1744C78.7286 79.1744 85.7302 73.4854 85.7302 64.102C85.7302 57.009 80.7344 51.874 73.3165 51.0611V50.7656C78.7665 49.879 83.0432 44.8179 83.0432 39.1658C83.0432 31.1123 76.685 25.8662 66.9962 25.8662H45.1963V79.1744H67.1097ZM53.674 32.6268H64.9525C71.0837 32.6268 74.5654 35.3605 74.5654 40.3108C74.5654 45.5937 70.516 48.549 63.1737 48.549H53.674V32.6268ZM53.674 72.4139V54.8661H64.8766C72.9001 54.8661 77.0633 57.8214 77.0633 63.5846C77.0633 69.3475 73.0138 72.4139 65.3687 72.4139H53.674Z"
             stroke="white"
-            stroke-width="0.24566"
+            strokeWidth="0.24566"
           />
         </g>
         <path
@@ -37,9 +37,9 @@ const bootstrap = ({ width, height }) => {
             width="48.6409"
             height="61.4148"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -72,8 +72,8 @@ const bootstrap = ({ width, height }) => {
             y2="91.9501"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#9013FE" />
-            <stop offset="1" stop-color="#6610F2" />
+            <stop stopColor="#9013FE" />
+            <stop offset="1" stopColor="#6610F2" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_3_7492"
@@ -83,8 +83,8 @@ const bootstrap = ({ width, height }) => {
             y2="70.9227"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="#F1E5FC" />
+            <stop stopColor="white" />
+            <stop offset="1" stopColor="#F1E5FC" />
           </linearGradient>
         </defs>
       </svg>

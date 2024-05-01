@@ -14,13 +14,13 @@ export const Hero = () => {
         }}
       >
         <p>Hi! I am</p>
-        <h1 className="py-20">
+        <h1 className="py-25">
           Khrise
           <span className="block" style={{ paddingTop: "20px" }}>
             Franchesca
           </span>
         </h1>
-        <h2 className="text-typo">a Full Stack developer</h2>
+        <h2 className="text-typo">a Front end Stack developer</h2>
         <Button text="SEE MY PROJECTS" link="/#projects" />
         <div className="flex-row items-center gap-10">
           <Icon icon="github" link="https://github.com/Khrisefzm" width={40} />
